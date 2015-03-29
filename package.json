@@ -18,11 +18,12 @@
     "hubot-slack": "^3.3.0",
     "hubot-youtube": "^0.1.2"
   },
-  "scripts": {
-    "start": "hubot --name 'hubot' --adapter slack"
-  },
   "engines": {
     "node": "0.10.x"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "robot": "hubot --name 'hubot' --adapter shell",
+    "start": "hubot --name 'hubot' --adapter slack"
+  }
 }
