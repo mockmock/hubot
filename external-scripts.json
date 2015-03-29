@@ -1,5 +1,6 @@
 [
   "hubot-diagnostics",
+  "hubot-redirect",
   "hubot-google-images",
   "hubot-google-translate",
   "hubot-help",
