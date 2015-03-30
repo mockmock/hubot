@@ -1,3 +1,4 @@
-node_modules
 .DS_Store*
+.envrc
 .hubot_history
+node_modules
